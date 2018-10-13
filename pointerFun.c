@@ -1,4 +1,16 @@
-#include <stdio.h>
+/*----------------------------------------------------------
+ *				HTBLA-Leonding / Class: <2AHIF>
+ * ---------------------------------------------------------
+ * Exercise Number: 3
+ * Title:			<Pointer fun>
+ * Author:			<Moritz Polleichtner>
+ * ----------------------------------------------------------
+ * Description:
+ * <there are two functions, one changes the values the other one
+ *  prints the values. It tests which values are changed or not>
+ * ----------------------------------------------------------
+ */
+ #include <stdio.h>
 
 void print_integers(int int_value, int* int_pointer);
 void change_integers(int int_value, int* int_pointer);
